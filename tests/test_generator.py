@@ -5,6 +5,7 @@ from buzz import generator
 def test_sample_single_word():
     l = ('foo', 'bar', 'foobar')
     word = generator.sample(l)
+    word = "test"
     assert word in l
 
 def test_sample_multiple_words():
